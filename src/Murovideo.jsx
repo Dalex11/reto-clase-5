@@ -10,7 +10,7 @@ export default function Murovideo() {
   return (
     <mesh onClick={handleClick}>
       <planeBufferGeometry args={[2, 2]} />
-      <meshBasicMaterial map={new useVideoTexture('video/video.mp4', { autoPlay: reproducir })}/>
+      <meshBasicMaterial map={new useVideoTexture('video/video.mp4', { autoplay: reproducir })}/>
     </mesh>
   );
 }
